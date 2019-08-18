@@ -1,0 +1,2 @@
+require('./polyfill');
+require('./dom');

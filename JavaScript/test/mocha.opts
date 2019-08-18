@@ -1,0 +1,7 @@
+./test/**/*.test.@(js|jsx|ts|tsx)
+--require ./test/env/default.js
+--reporter spec
+--recursive
+--compilers js:babel-core/register ts:ts-node/register
+--timeout 5000
+--slow 1000
