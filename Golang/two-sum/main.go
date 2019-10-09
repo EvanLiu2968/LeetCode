@@ -1,5 +1,4 @@
-// Time:  O(n)
-// Space: O(n)
+package leetcode
 
 func twoSum(nums []int, target int) []int {
 	lookup := make(map[int]int)

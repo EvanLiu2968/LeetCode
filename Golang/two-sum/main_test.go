@@ -1,6 +1,9 @@
 package leetcode
 
-import "testing"
+import (
+	"fmt"
+	"testing"
+)
 
 func Test_two_sum(t *testing.T) {
 
